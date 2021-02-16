@@ -1,5 +1,5 @@
 <template>
-    <nav class="fixed bg-ansomarfa-light shadow-md z-50 w-full top-0">
+    <nav class="fixed bg-ansomarfa-light shadow-sm z-50 w-full top-0">
     <div class="container mx-auto my-3 px-16">
     <div class="flex items-center justify-between">
           <a href="/">
