@@ -4,6 +4,7 @@
     <PortfolioSection/>
     <ToolsSection/>
     <CallToAction/>
+    <ContactSection/>
   </div>
 </template>
 
