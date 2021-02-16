@@ -3,6 +3,7 @@
     <HeroSection/>
     <PortfolioSection/>
     <ToolsSection/>
+    <CallToAction/>
   </div>
 </template>
 
