@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="bg-ansomarfa-light">
     <Navbar/>
     <Nuxt/>
     <Footer/>

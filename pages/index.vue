@@ -1,10 +1,10 @@
 <template>
-  <div class="container mx-auto sm:px-16">
-    <HeroSection/>
-    <PortfolioSection/>
-    <ToolsSection/>
-    <CallToAction/>
-    <ContactSection/>
+  <div class="container mx-auto sm:px-16 ">
+    <HeroSection data-aos="zoom-in-up"/>
+    <PortfolioSection data-aos="zoom-in-up"/>
+    <ToolsSection data-aos="zoom-in-up"/>
+    <CallToAction data-aos="zoom-in-up"/>
+    <ContactSection data-aos="zoom-in-up"/>
   </div>
 </template>
 
