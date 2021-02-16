@@ -1,5 +1,6 @@
 <template>
-  <div class="container">
+  <div class="container mx-auto sm:px-16">
+    <HeroSection/>
   </div>
 </template>
 

@@ -1,20 +1,16 @@
 <template>
     <nav class="bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-5">
+    <div class="container mx-auto my-5 px-16">
     <div class="flex items-center justify-between">
           <div class="">
             <img class="" src="../assets/img/logo.svg" alt="Workflow">
           </div>
           <div class="">
             <div class="ml-10">
-              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Home</a>
-
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Projects</a>
-
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Calendar</a>
-
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Reports</a>
+              <nuxt-link to="" class="text-ansomarfa-dark text-base hover:text-gray-700 px-3 font-normal">Home</nuxt-link>
+              <nuxt-link to="" class="text-ansomarfa-dark text-base hover:text-gray-700 px-3 font-normal">Services</nuxt-link>
+              <nuxt-link to="" class="text-ansomarfa-dark text-base hover:text-gray-700 px-3 font-normal">Portfolio</nuxt-link>
+              <nuxt-link to="" class="text-ansomarfa-dark text-base hover:text-gray-700 px-3 font-normal">Contact</nuxt-link>
             </div>
           </div>
         </div>

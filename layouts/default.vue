@@ -1,6 +1,6 @@
 <template>
   <div class="relative">
-    <Navbar :carts="carts"/>
+    <Navbar/>
     <Nuxt/>
     <Footer/>
   </div>
