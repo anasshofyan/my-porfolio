@@ -1,3 +1,20 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@layer utilities {
+    @variants hover,
+    focus {
+        .filter-none {
+            filter: none;
+        }
+        .filter-grayscale {
+            filter: grayscale(100%);
+        }
+        .hover-trigger .hover-target {
+            display: none;
+        }
+        .hover-trigger:hover .hover-target {
+            display: block;
+        }
+    }
+}

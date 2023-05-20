@@ -1,20 +1,15 @@
 <template>
-    <nav class="bg-white">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 my-5">
+    <nav class="fixed bg-ansomarfa-light shadow-sm z-50 w-full top-0">
+    <div class="container mx-auto my-3 px-16">
     <div class="flex items-center justify-between">
-          <div class="">
+          <a href="/">
             <img class="" src="../assets/img/logo.svg" alt="Workflow">
-          </div>
+          </a>
           <div class="">
             <div class="ml-10">
-              <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Home</a>
-
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Projects</a>
-
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Calendar</a>
-
-              <a href="#" class="text-gray-400 hover:text-gray-500 px-3 font-light">Reports</a>
+              <a href="#" v-scroll-to="'#home'" class="text-ansomarfa-dark text-base hover:text-gray-700 px-3 font-normal">Home</a>
+              <a href="#" v-scroll-to="'#portfolio'" class="text-ansomarfa-dark text-base hover:text-gray-700 px-3 font-normal">Portfolio</a>
+              <a href="#" v-scroll-to="'#contact'" class="text-ansomarfa-dark text-base hover:text-gray-700 px-3 font-normal">Contact</a>
             </div>
           </div>
         </div>

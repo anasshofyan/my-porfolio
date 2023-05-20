@@ -1,6 +1,6 @@
 <template>
-  <div class="relative">
-    <Navbar :carts="carts"/>
+  <div class="bg-ansomarfa-light">
+    <Navbar/>
     <Nuxt/>
     <Footer/>
   </div>
